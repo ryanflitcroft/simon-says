@@ -57,17 +57,17 @@
 
 1. initialize values:
 
+    * const colorArray
+
     * let level
 
     * let gameSequence
 
     * let playerSequence
 
-    * let gameColor
+    * let colorRandom
 
     * let playerColor
-
-    * let colorRandom
 
     * let reset
 
@@ -91,9 +91,8 @@
         * value of variable colorRandom is pushed to array gameSequence.
 
     * playerClick()
-        * function randomColor() is called.
-        * value of variable colorRandom is pushed to array playerSequence.
-        * function compare() is called for each index of array playerSequence, while length of playerSequence is less than or equal to array gameSequence.
+        * player clicks a panel, the value of that color panel is pushed to array playerSequence.
+        * function compare() is called for each index of array playerSequence.
 
     * compare()
         * each index of array playerSequence is compared with each index of array gameSequence, while length of playerSequence is less than or equal to length of gameSequence.
@@ -110,4 +109,3 @@
         * string value of each array is assigned [].
         * text content of start button is assigned the string value 'try again'.
 
-        
